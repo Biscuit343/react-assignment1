@@ -22,6 +22,9 @@ function Form(props) {
         props.handleSubmit(person);
         setPerson({ name: '', job: '' });
     }
+
+    // function deleteUser() {
+    // }
     return (
         <form>
             <label htmlFor="name">Name</label>
